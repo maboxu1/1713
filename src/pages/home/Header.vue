@@ -4,12 +4,16 @@
   	<div class="header-center">
   		<a href="">
   			<i class="center-left iconfont icon-fangdajing"></i>
+<<<<<<< HEAD
   			<span class="center-right">输入城市/景点/游玩主题xxxxxx</span>
+=======
+  			<span class="center-right">sdf输入城市/景点/游玩主题</span>
+>>>>>>> YangFan-SX
   		</a>
   	</div>
   	<div class="header-right">
   		<a href="">
-  			<span class="city">北京</span>
+  			<span class="city">北京sdf</span>
   		</a>
   	</div>
   </header>
