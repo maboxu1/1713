@@ -4,7 +4,7 @@
   	<div class="header-center">
   		<a href="">
   			<i class="center-left iconfont icon-fangdajing"></i>
-  			<span class="center-right">输入城市/景点/游玩主题xxxxxx</span>
+  			<span class="center-right">输入城市/景点/游玩主题</span>
   		</a>
   	</div>
   	<div class="header-right">
