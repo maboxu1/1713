@@ -4,20 +4,12 @@
   	<div class="header-center">
   		<a href="">
   			<i class="center-left iconfont icon-fangdajing"></i>
-<<<<<<< HEAD
   			<span class="center-right">输入城市/景点/游玩主题</span>
-=======
-<<<<<<< HEAD
-  			<span class="center-right">输入城市/景点/游玩主题xxxxxx</span>
-=======
-  			<span class="center-right">sdf输入城市/景点/游玩主题</span>
->>>>>>> YangFan-SX
->>>>>>> 99ef1810f678d4a212abae426d88cad2465eebb3
   		</a>
   	</div>
   	<div class="header-right">
   		<a href="">
-  			<span class="city">北京sdf</span>
+  			<span class="city">北京</span>
   		</a>
   	</div>
   </header>
@@ -26,11 +18,6 @@
 <script>
 export default {
 
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
 }
 </script>
 
@@ -55,12 +42,16 @@ export default {
 }
 
 .header-center {
-    background: #fff;
-    width: 5.38rem;
+    position: absolute;
+    top: .14rem;
+    left: .8rem;
+    right: 1.28rem;
     line-height: .6rem;
+    background: #fff;
+    color: #ccc;
     border-radius: .06rem;
-	float: left;
-	margin: .14rem 0;
+    padding-left: .15rem;
+    text-align: left;
 }
 
 .header-center a {
@@ -84,8 +75,10 @@ export default {
 }
 
 .header-right{
-	float: left;
+	float: right;
 	height:100%; 
+	text-align:left;
+	width: 1.28rem;
 }
 
 .header-right a{
@@ -97,6 +90,7 @@ export default {
 	color:#fff;
 	font-weight: 100;
 	padding-left:.22rem;
+
 }
 
 .city:after {  
